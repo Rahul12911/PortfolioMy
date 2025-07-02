@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Chadar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Rahul Chadar</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </h1>
+                    <p class="hero-subtitle">ML and AI Enthusiast | Python Developer | Math Lover</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                    <div class="image-container">
+                        <img src="attached_assets/Rahul_pic_1751396879944.jpg" alt="Rahul Chadar" class="profile-image">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="about-description">
+                        I am a passionate Machine Learning enthusiast and Python Developer based in New Delhi, India. 
+                        With a strong foundation in mathematics and programming, I enjoy solving complex problems 
+                        and creating innovative solutions using cutting-edge technologies.
+                    </p>
+                    <p class="about-description">
+                        My journey in technology spans across various domains including data science, machine learning, 
+                        and Python development. I love exploring new technologies and applying them to real-world problems.
+                    </p>
+                </div>
+                <div class="about-gallery" data-aos="fade-left">
+                    <h3>Gallery</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="attached_assets/WhatsApp Image 2025-07-02 at 12.36.14 AM_1751396959526.jpeg" alt="Rahul Chadar" class="gallery-photo">
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="attached_assets/WhatsApp Image 2025-07-02 at 12.36.14 AM (1)_1751396959525.jpeg" alt="Rahul Chadar" class="gallery-photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Here are some of my recent works</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="attached_assets/Titanic-Labeled-for-Reuse_1751399541242.jpg" alt="Titanic Survival Predictor">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Titanic Survival Predictor</h3>
+                        <p class="project-description">Built a logistic regression model to predict passenger survival using Titanic dataset features. Enhanced model accuracy with feature engineering and grid search.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">GridSearchCV</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="attached_assets/1_hhq3ybwbyA3p0dWuLFtLMQ_1751399611111.jpg" alt="Price Estimator">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Car & House Price Estimator</h3>
+                        <p class="project-description">Designed ML regression models to estimate the market prices of cars and homes based on features like year, mileage, location, and area.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Linear Regression</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="attached_assets/Learn-Facial-Recognition-scaled_1751399403443.jpg" alt="Face Recognition">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Face Recognition System</h3>
+                        <p class="project-description">Developed a real-time facial recognition system using OpenCV and Haar cascades to detect and identify faces from webcam input.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">HaarCascade</span>
+                            <span class="tech-tag">NumPy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="attached_assets/5f57ecd6e6ff30001d4e79d0_1751399627921.webp" alt="WhatsApp Analyzer">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">WhatsApp Chat Analyzer</h3>
+                        <p class="project-description">Created a tool to analyze WhatsApp chat data and visualize insights like message frequency, active users, emojis, and word clouds.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">WordCloud</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="attached_assets/How-to-Get-Netflix-For-Free_1751399541241.webp" alt="Movie Recommender">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Movie Recommendation System</h3>
+                        <p class="project-description">Implemented a content-based movie recommendation engine using movie metadata like genre, cast, and keywords to recommend similar films.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Cosine Similarity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <img src="attached_assets/2022-02-17-Sign-Language_1751399541240.png" alt="Sign Language Detector">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Sign Language Detector</h3>
+                        <p class="project-description">Designed a real-time deep learning system to detect and classify hand gestures for basic sign language using webcam feed.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-image">
+                        <img src="attached_assets/spam_1751399541242.jpg" alt="Email Spam Classifier">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Email Spam Classifier</h3>
+                        <p class="project-description">Built a spam detection model using NLP techniques to classify emails/SMS as spam or not spam with high accuracy.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">TfidfVectorizer</span>
+                            <span class="tech-tag">Naive Bayes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>07290888171</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>rahulchadar34@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>New Delhi, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-links" data-aos="fade-up">
+                <a href="https://www.kaggle.com/rahulchadar" class="social-link" target="_blank">
+                    <i class="fab fa-kaggle"></i>
+                    <span>Kaggle</span>
+                </a>
+                <a href="https://www.linkedin.com/in/rahul-chadar" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://www.facebook.com/rahulchadar" class="social-link" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Rahul Chadar. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
